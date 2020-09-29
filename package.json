@@ -1,0 +1,16 @@
+{
+  "name": "material-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ricardo Girardi <girardiricardo@outlook.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.x",
+    "react-dom": "^16.x"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
