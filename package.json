@@ -14,9 +14,7 @@
   },
   "peerDependencies": {
     "react": "^16.x",
-    "react-dom": "^16.x",
-    "@material-ui/core": "^4.x",
-    "@material-ui/icons": "^4.x"
+    "react-dom": "^16.x"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
