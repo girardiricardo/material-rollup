@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/ricardogirardi/.asdf/installs/nodejs/10.14.2/bin/node /Users/ricardogirardi/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/ricardogirardi/.asdf/installs/nodejs/10.14.2/bin:/Users/ricardogirardi/.asdf/installs/nodejs/10.14.2/.npm/bin:/Users/ricardogirardi/.yarn/bin:/Users/ricardogirardi/.config/yarn/global/node_modules/.bin:/Users/ricardogirardi/.asdf/shims:/Users/ricardogirardi/.asdf/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ricardogirardi/.yarn/bin:/Users/ricardogirardi/.config/yarn/global/node_modules/.bin:/Users/ricardogirardi/development/flutter/bin:/Users/ricardogirardi/Library/Android/sdk/emulator:/Users/ricardogirardi/Library/Android/sdk/tools:/Users/ricardogirardi/Library/Android/sdk/tools/bin:/Users/ricardogirardi/Library/Android/sdk/platform-tools:/Users/ricardogirardi/development/flutter/bin:/Users/ricardogirardi/Library/Android/sdk/emulator:/Users/ricardogirardi/Library/Android/sdk/tools:/Users/ricardogirardi/Library/Android/sdk/tools/bin:/Users/ricardogirardi/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/ricardogirardi/estudos/material-rollup/node_modules/react-scripts/node_modules/@babel'
+
+npm manifest: 
+  {
+    "name": "material-rollup-example",
+    "homepage": ".",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "dependencies": {
+      "@types/node": "link:../node_modules/@types/node",
+      "@types/react": "link:../node_modules/@types/react",
+      "material-rollup": "link:..",
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "typescript": "link:../node_modules/typescript"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
