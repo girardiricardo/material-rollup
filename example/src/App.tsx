@@ -1,9 +1,10 @@
 import React from "react";
-import { Button } from "material-rollup";
+import { Button, IconButton } from "material-rollup";
 
 const App: React.FC = () => {
   return (
     <>
+      <IconButton />
       <Button>Text button</Button>
     </>
   );
